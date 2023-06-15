@@ -12,14 +12,31 @@
 
 .Card-blue {
   background-color: skyblue;
-  color: white;
+  color: black;
 }
 
 .Card-green {
   background-color: rgb(150, 190, 150);
-  color: white;
+  color: black;
 }
 
 .Card-title {
   font-weight: bold;
 }
+
+.card {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: grab;
+}
+
+.card.dragging {
+  opacity: 0.5;
+}
+
+.card.changed {
+  background-color: rgb(5, 75, 5);
+}
+
